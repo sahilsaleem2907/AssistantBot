@@ -35,7 +35,7 @@ def take_command():
     return command
 
 
-def run_alexa():
+def run_assistant():
     command = take_command()
     print(command)
     if 'play' in command:
@@ -57,4 +57,4 @@ def run_alexa():
 
 
 while True:
-    run_alexa()
+    run_assistant
